@@ -1,0 +1,420 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Navbar Section */
+
+#home{
+    color: #FF5500;
+    font-weight: 800;
+    font-size: 3vw;
+    border-radius: 5px;
+}
+
+#navbar {
+    border-bottom: 1px solid #ff55004f;
+}
+
+#navbarNavAltMarkup a{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+
+/* ===============================
+                Landing Section
+    ====================================== */
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.747)), url('./images/main.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#landing .hero-container {
+    height: 110vh;    
+    min-height: 110vh;
+}
+
+#landing .main-text {
+    font-size: 10vw;
+    letter-spacing: -5px;
+    color: #ffffff;
+    line-height: 0.9;
+}
+
+#landing .sub-text {
+    font-size: clamp(40px, 5vw, 90px);
+    margin-top: -25px;
+    color: #FF5500;
+}
+
+
+/* ===============================
+                About Section
+    ====================================== */
+#about {
+    /* Per your professor's advice, consider a more neutral color later! */
+    background-color: #FF5500; 
+}
+
+#about .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#about .custom-heading {
+    max-width: 80%;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    font-size: 4vw !important;
+}
+
+#about .discover-p{
+    max-width: 60%;
+    line-height: 25px;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
+@media (max-width: 1920px) {
+    #about .custom-heading {
+        max-width: 80%;
+        line-height: 1.2;
+        color: #000;
+        font-size: 3.5vw;
+    }
+}
+
+#about button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    /* Switched to rem/px for better scaling than vw */
+    font-size: 1rem; 
+    font-weight: 300;
+    padding: 10px 20px 10px 70px;
+    border-radius: 50px 10px 10px 50px;
+    white-space: nowrap; /* Prevents text inside button from wrapping */
+    transition: transform 0.2s ease;
+}
+
+#about button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#about .dev-img {
+    border: 6px solid black;
+    border-radius: 35px;
+    width: 650px;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+}
+    
+#about .about-me {
+    font-size: 6vw;
+    font-weight: 200;
+    display: block;
+}
+
+#about p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+
+/* ===============================
+                Projects Section
+    ====================================== */
+#projects{
+    background-color: #e4f4ff;
+}
+
+#projects h1{
+
+    font-size: 5vw;
+    color: black;
+}
+
+#projects h4 {  
+    text-align: center;
+    border-bottom: 5px solid black;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+#projects p{
+    text-align: center;
+    padding: 20px 25px;
+    color: #182129;
+    font-size: 100%;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 5vw;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 5vw;
+    height: 250px; /* fixed height for all cards */
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills the container, crops if needed */
+    object-position: center;
+    display: block;
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #ff550091; */
+    border-radius: 5vw;
+    pointer-events: none;
+}
+
+
+
+
+/* =====================================
+                Tools Section
+    ====================================== */
+#tools{
+    padding: 10vh 0;
+}
+
+#tools h1{
+    font-size: 7vw;
+    color: #FF5500;
+}
+
+#tools h3{
+    font-size: 2vw;
+    font-weight: 300;
+    color: black;
+    background-color: #FF5500;
+    border-radius: .5vw;
+}
+
+#tools p{
+    color: #FF5500;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.icon-grid-wrapper {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tools .tool-box {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+#tools .tech-icon {
+    width: 60%;
+    height: auto;
+}
+
+
+
+
+/* ===============================
+                Contacts Section
+    ====================================== */
+iframe {
+    border-radius: 2vw;
+    border: none;
+    height: 500px;
+    width: 31vw;
+    box-shadow: -10px 15px 0px rgb(0, 0, 0);
+}
+
+#contact{
+    padding: 5vw 15vw;
+    background-color: #FF5500;
+}
+
+#contact h1{
+    font-size: 5vw;
+    font-weight: 350;
+}
+
+.form-text button, .form-control::placeholder {
+    color: #FF5500;
+}
+
+#contact textarea {
+    min-height: 12vh;
+    resize: vertical;
+}
+
+footer h2{
+    color: #FF5500;
+}
+
+/* ===============================
+    MOBILE STYLES (Small screens up to 767px)
+    ====================================== */
+@media (max-width: 767px) {
+    
+    #navbar .nav-link {
+        font-size: 4vw;
+        padding: 10px 6px 20px 6px;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    #navbar .navbar-logo{
+        font-size: 7vw;
+    }
+
+    #navbar .navbar-nav {
+        padding-bottom: 25px;
+    }
+
+    #landing {
+        min-height: 100vh;
+        background-attachment: scroll;
+    }
+
+    #landing .hero-container {
+        height: 60vh;
+    }
+
+    #landing .main-text {
+        font-size: 18vw;
+        letter-spacing: -5px;
+        color: #ffffff;
+        line-height: 0.9;
+    }
+
+    #landing .sub-text {
+        font-size: clamp(40px, 5vw, 90px);
+        margin-top: -15px;
+        color: #FF5500;
+    }
+
+    #projects h1{
+        font-size: 12vw;
+    }
+
+
+    #tools{
+        padding: 0px 7vw;
+    }
+
+    #tools h1{
+        font-size: 8vw;
+        color: #FF5500;
+    }
+
+    #tools h3{
+        font-size: 5vw;
+        font-weight: 600;
+        color: black;
+    }
+    
+    iframe {
+        height: 200px;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    #contact {
+        font-size: 8vw;
+        font-weight: 400;
+        padding: 5vh 5vw;
+    }
+
+    #contact h1{
+        font-size: 8vw;
+        font-weight: 400;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* ===============================
+    TABLET STYLES (768px to 991px)
+    ====================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #navbar .nav-link {
+        font-size: 3vw;
+        padding: 10px 6px 20px 6px;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    #navbar .navbar-logo {
+        font-size: 7vw;
+    }
+
+    #navbar .navbar-nav {
+        padding-bottom: 25px;
+    }
+    
+    #landing .main-text {
+        font-size: 12vw;
+        letter-spacing: -5px;
+        color: #ffffff;
+        line-height: 0.9;
+    }
+
+    #landing .sub-text {
+        font-size: clamp(40px, 5vw, 90px);
+        margin-top: -20px;
+        color: #FF5500;
+    }
+
+
+    iframe { 
+        height: 50vh;
+    }
+
+    #contact{
+        padding: 5vw 5vw;
+    }
+}
+
+
+
+/* ===============================
+    DESKTOP STYLES (992px and above)
+    ====================================== */
+@media (min-width: 992px) {
+
+    #tools .tool-box:hover {
+        transform: translateY(-5px);
+    }
+}
