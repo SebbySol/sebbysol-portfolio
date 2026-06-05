@@ -159,7 +159,7 @@
                                 <button type="submit" class="btn btn-black bg-black px-5 py-2 fw-medium" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>                               
                             </div>    
 
-                            <div class="d-flex justify-content-end mt-2">
+                            <div class="d-flex justify-content-end mt-4">
                                 <div class="recaptcha-wrapper" ref="recaptchaContainer" style="width: fit-content; max-width: 80%; overflow: hidden;"></div>
                             </div>
                             
