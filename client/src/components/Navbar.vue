@@ -9,7 +9,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="d-flex navbar-nav ms-auto gap-4">
+                    <div class="d-flex navbar-nav navbar-text ms-auto gap-4">
                         <a class="nav-link" href="#landing">HOME</a>
                         <a class="nav-link" href="#projects">PROJECTS</a>
                         <a class="nav-link" href="#tools">TOOLS</a>

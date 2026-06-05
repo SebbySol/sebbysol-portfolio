@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
+import About from './components/About.vue';
 import LandingPage from './components/LandingPage.vue';
 import Projects from './components/Projects.vue';
 import Tools from './components/Tools.vue';
@@ -13,6 +14,7 @@ import Footer from './components/Footer.vue';
   <Navbar />
     <div>
       <LandingPage />
+      <About />
       <Projects />
       <Tools />
       <Contacts />
