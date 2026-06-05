@@ -8,13 +8,13 @@
                 </a>
             </div>
             
-            <div class="row">
+            <div class="row d-none d-md-block">
                 <div class="col-12 text-center text-md-center">
-                    <p class="mb-0 small text-secondary">
+                    <p class="mb-0 small text-secondary right-text-footer">
                         <span class="fw-light text-white">Sebastian Miguel Angeles | Full Stack Web Developer </span>
                     </p>
                 </div>
-            </div>            
+            </div>
         </div>
     </footer>
 </template>
