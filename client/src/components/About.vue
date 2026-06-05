@@ -1,6 +1,6 @@
 <template>
 
-    <section id="about" class="about pt-5">
+    <section id="about" class="about pt-2">
         <div class="container pb-5">
 
             <div class="mt-5 mb-5 d-flex align-items-start justify-content-between gap-4">
