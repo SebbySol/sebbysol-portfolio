@@ -61,7 +61,6 @@ html, body {
                 About Section
     ====================================== */
 #about {
-    /* Per your professor's advice, consider a more neutral color later! */
     background-color: #FF5500; 
 }
 
@@ -98,12 +97,11 @@ html, body {
     color: white;
     background-color: rgb(0, 0, 0);
     border: none;
-    /* Switched to rem/px for better scaling than vw */
     font-size: 1rem; 
     font-weight: 300;
     padding: 10px 20px 10px 70px;
     border-radius: 50px 10px 10px 50px;
-    white-space: nowrap; /* Prevents text inside button from wrapping */
+    white-space: nowrap;
     transition: transform 0.2s ease;
 }
 
@@ -139,7 +137,7 @@ html, body {
                 Projects Section
     ====================================== */
 #projects{
-    background-color: #e4f4ff;
+    background-color: #fff;
 }
 
 #projects h1{
@@ -175,13 +173,13 @@ html, body {
     overflow: hidden;
     background-color: #000;
     border-radius: 5vw;
-    height: 250px; /* fixed height for all cards */
+    height: 250px; 
 }
 
 .img-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* fills the container, crops if needed */
+    object-fit: cover;
     object-position: center;
     display: block;
 }
@@ -193,7 +191,6 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background-color: #ff550091; */
     border-radius: 5vw;
     pointer-events: none;
 }

@@ -1,5 +1,6 @@
 <template>
-  <div class="project-card">
+  <a :href="project.link || '#'" target="_blank" rel="noopener noreferrer" class="project-card"
+  >
     <!-- Thumbnail -->
     <div class="card-thumbnail">
       <img
@@ -18,7 +19,7 @@
 
     <!-- Description -->
     <p class="card-description">{{ project.description }}</p>
-  </div>
+  </a>
 </template>
 
 <script setup>
@@ -37,16 +38,28 @@ defineProps({
   align-items: center;
   text-align: center;
   padding: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* Thumbnail */
 .card-thumbnail {
   width: 100%;
+  
+  border: .5px solid #e1d9d9;
   aspect-ratio: 16 / 10;
   border-radius: 2rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
-  background-color: #1a1a2e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #000000;
+  transition: box-shadow 0.2s ease;
+}
+
+.project-card:hover .card-thumbnail {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.35);
+  transition: box-shadow 0.2s ease;
 }
 
 .card-thumbnail img {
