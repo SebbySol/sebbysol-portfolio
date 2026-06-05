@@ -31,7 +31,7 @@ html, body {
                 Landing Section
     ====================================== */
 #landing {
-    background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.747)), url('./images/main.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.747)), url('/images/main.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
