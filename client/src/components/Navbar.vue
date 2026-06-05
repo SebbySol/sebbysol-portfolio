@@ -1,6 +1,6 @@
 <template>
     <!-- Navbar Start-->
-        <nav class="navbar navbar-expand-lg fixed-top bg-black navbar-dark" id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top bg-black p-3 navbar-dark" id="navbar">
             <div class="container">
                 <a class="navbar-logo text-decoration-none" href="#landing" id="home">sebbysol.</a>
                 

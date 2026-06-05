@@ -14,14 +14,19 @@ html, body {
     border-radius: 5px;
 }
 
-#navbar {
-    border-bottom: 1px solid #ff55004f;
-}
-
-#navbarNavAltMarkup a{
-    font-size: 1rem;
+#navbarNavAltMarkup a {
+    font-size: 1.1rem;
     font-weight: 300;
     color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+#navbarNavAltMarkup a:hover {
+    font-weight: 300;
+    color: white;
+    border: 1px solid white;
 }
 
 
