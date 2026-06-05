@@ -123,13 +123,13 @@
             </div>
             <div class="col-4">
               <div class="tool-box">
-                <img src="https://img.icons8.com/?size=100&id=tQMGkHgAIBxw&format=png" alt="Trello" class="tech-icon">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/trello-logo-icon.png" alt="Trello" class="tech-icon">
               </div>
               <p class="small mt-2">Trello</p>
             </div>
             <div class="col-4">
               <div class="tool-box">
-                <img src="https://img.icons8.com/?size=100&id=eFPBXQop6V2E&format=png" alt="Microsoft Tools" class="tech-icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/888/888867.png" alt="Microsoft Tools" class="tech-icon">
               </div>
               <p class="small mt-2">MS Tools</p>
             </div>
