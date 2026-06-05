@@ -8,7 +8,7 @@ const projects = [
     description:
       'A modern, fully responsive portfolio designed to showcase my journey as a web developer. Built with a focus on clean architecture and user experience, this project leverages HTML5 and CSS3 for structure and custom styling, while utilizing Bootstrap to ensure a seamless experience across all device sizes. It serves as a central hub for my latest projects and technical skills.',
     image: './images/project-2.jpg',
-    link: 'https://example.com/web-portfolio',
+    link: 'https://sebbysol-portfolio.vercel.app/',
     order: 1,
   },
   {
