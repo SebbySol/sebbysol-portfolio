@@ -2,7 +2,6 @@ html, body {
     font-family: 'Inter', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #000;
     scroll-behavior: smooth;
 }
 
