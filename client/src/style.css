@@ -397,6 +397,10 @@ footer h2{
     }
 
     /* About Section - Small START */
+    #about {
+        background-color: #ff5500;
+    }
+
      #about .mt-5.d-flex {
         flex-direction: column;
         padding: 0 15px;
@@ -410,7 +414,7 @@ footer h2{
     #about .discover-p {
         max-width: 100%;
         line-height: 1.1;
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: 200;
     }
 
