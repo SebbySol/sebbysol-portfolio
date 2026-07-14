@@ -415,7 +415,7 @@ footer h2{
         max-width: 100%;
         line-height: 1.1;
         font-size: 4vw;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     #about button {
@@ -443,7 +443,8 @@ footer h2{
 
     #about .about-prg {
         text-align: right;
-        line-height: 1;        
+        line-height: 1;
+        font-weight: 300;
         font-size: 4vw !important;
     }
 
