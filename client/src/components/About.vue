@@ -6,7 +6,7 @@
             <div class="mt-5 mb-5 d-flex align-items-start justify-content-between gap-4">
     
             <div>
-                <h1 class="mb-5 custom-heading">
+                <h1 class="mb-lg-5 mb-3 custom-heading">
                     Discover my projects and see the story of each works.
                 </h1>
                 <p class="text-white discover-p ">Every feature, workflow, and detail is built with purpose to create smooth, reliable experiences that bring ideas to life. I focus on performance, usability, and clean implementation to deliver solutions that solve real problems and support business goals.</p>

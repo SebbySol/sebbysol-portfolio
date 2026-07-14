@@ -413,7 +413,7 @@ footer h2{
 
     #about .discover-p {
         max-width: 100%;
-        line-height: 1.1;
+        line-height: 1.5;
         font-size: 4vw;
         font-weight: 300;
     }
@@ -443,7 +443,7 @@ footer h2{
 
     #about .about-prg {
         text-align: right;
-        line-height: 1;
+        line-height: 1.5;
         font-weight: 300;
         font-size: 4vw !important;
     }
