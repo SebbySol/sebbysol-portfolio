@@ -7,7 +7,7 @@
 
         <!-- 1. Front-End Development -->
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3 text-white">Front-End Development</h3>
+          <h3 class="mb-5 p-3">Front-End Development</h3>
           <div class="row gx-2 gy-3 mx-auto">
             <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
@@ -44,7 +44,7 @@
 
         <!-- 2. Back-End & Database -->
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3 text-white">Back-End & Database</h3>
+          <h3 class="mb-5 p-3">Back-End & Database</h3>
           <div class="row gx-2 gy-3 mx-auto">
             <div class="col-4 col-md-4 pb-5">
               <div class="tool-box">
@@ -66,7 +66,7 @@
 
         <!-- 3. Development Workflow & APIs -->
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3 text-white">Dev Workflow & Testing</h3>
+          <h3 class="mb-5 p-3">Dev Workflow & Testing</h3>
           <div class="row gx-2 gy-3 mx-auto">
             <div class="col-4 col-md-4 pb-5">
               <div class="tool-box">
@@ -92,58 +92,69 @@
         </div>
 
         <!-- 4. Design & Productivity -->
-        <div class="col-lg-6 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3 text-white">Design & Productivity</h3>
-          <div class="row gx-2 gy-3 mx-auto">
-            <div class="col-4 col-md-3 pb-5">
-              <div class="tool-box">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Figma" class="tech-icon">
+          <div class="col-lg-6 rounded-5 d-flex flex-column pb-5">
+            <h3 class="mb-5 p-3">Design & Productivity</h3>
+            <div class="row gx-2 gy-3 mx-auto justify-content-center w-100">
+              
+              <div class="col-4 col-md pb-5">
+                <div class="tool-box">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Figma" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-3 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-illustrator-icon.png" alt="Adobe Illustrator" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-illustrator-icon.png" alt="Adobe Illustrator" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-3 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-photoshop-icon.png" alt="Adobe Photoshop" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-photoshop-icon.png" alt="Adobe Photoshop" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-3 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/trello-logo-icon.png" alt="Trello" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/trello-logo-icon.png" alt="Trello" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-3 pb-5">
-              <div class="tool-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/888/888867.png" alt="Microsoft Tools" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5">
+                <div class="tool-box">
+                  <img src="https://cdn-icons-png.flaticon.com/128/888/888867.png" alt="Microsoft Tools" class="tech-icon">
+                </div>
               </div>
+
             </div>
           </div>
-        </div>
 
         <!-- 5. AI & Dev Assistants -->
-        <div class="col-lg-6 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3 text-white">AI & Dev Assistants</h3>
-          <div class="row gx-2 gy-3 mx-auto">
-            <div class="col-4 col-md-4 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/chatgpt-icon.png" alt="ChatGPT" class="tech-icon">
+          <div class="col-lg-6 rounded-5 d-flex flex-column pb-5">
+            <h3 class="mb-5 p-3">AI & Dev Assistants</h3>
+            <div class="row gx-2 gy-3 mx-auto w-100">
+              
+              <!-- Added style="max-width: 20%;" to match the 5-item width -->
+              <div class="col-4 col-md pb-5" style="max-width: 20%;">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/chatgpt-icon.png" alt="ChatGPT" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-4 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/claude-ai-icon.png" alt="Claude AI" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5" style="max-width: 20%;">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/claude-ai-icon.png" alt="Claude AI" class="tech-icon">
+                </div>
               </div>
-            </div>
-            <div class="col-4 col-md-4 pb-5">
-              <div class="tool-box">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/cursor-ai-code-icon.png" alt="Cursor AI" class="tech-icon">
+              
+              <div class="col-4 col-md pb-5" style="max-width: 20%;">
+                <div class="tool-box">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/cursor-ai-code-icon.png" alt="Cursor AI" class="tech-icon">
+                </div>
               </div>
+
             </div>
           </div>
-        </div>
 
       </div>
     </div>
