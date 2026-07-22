@@ -46,17 +46,17 @@
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
           <h3 class="mb-5 p-3">Back-End Development</h3>
           <div class="row gx-2 gy-3 mx-auto">
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://icon.icepanel.io/Technology/svg/Node.js.svg" alt="Node.js" class="tech-icon">
               </div>
             </div>
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://img.icons8.com/?size=160&id=9Gfx4Dfxl0JK&format=png" alt="Express.js" class="tech-icon">
               </div>
             </div>
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://icon.icepanel.io/Technology/svg/MongoDB.svg" alt="MongoDB" class="tech-icon">
               </div>
@@ -68,22 +68,22 @@
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
           <h3 class="mb-5 p-3">Dev Workflow & Testing</h3>
           <div class="row gx-2 gy-3 mx-auto">
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://cdn-icons-png.flaticon.com/512/15466/15466163.png" alt="Git" class="tech-icon">
               </div>
             </div>
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png" alt="Postman" class="tech-icon">
               </div>
             </div>
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png" alt="VS Code" class="tech-icon">
               </div>
             </div>
-            <div class="col-4 col-md-4 pb-5">
+            <div class="col-4 col-md-3 pb-5">
               <div class="tool-box">
                 <img src="https://img.icons8.com/?size=100&id=dljSTzHrskUM&format=png&color=000000" alt="Sublime Text" class="tech-icon">
               </div>
