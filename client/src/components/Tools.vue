@@ -44,7 +44,7 @@
 
         <!-- 2. Back-End & Database -->
         <div class="col-lg-4 rounded-5 d-flex flex-column pb-5">
-          <h3 class="mb-5 p-3">Back-End & Database</h3>
+          <h3 class="mb-5 p-3">Back-End Development</h3>
           <div class="row gx-2 gy-3 mx-auto">
             <div class="col-4 col-md-4 pb-5">
               <div class="tool-box">
